@@ -1,8 +1,31 @@
-.prof-about-card {
-    margin-top: 2%;
-    margin-left: 10%;
+.body  {
+    background-color: grey;
 }
+.nav-title {
+    background-color: 	#6A5ACD;
+}
+
 .link-border {
     border-right: 1px solid darkgrey;
     border-left: 1px solid darkgrey;
 }
+.about-img {
+padding-right: 5px;
+}
+.prof-about-card {
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.card-width {
+    width: 90%;
+}
+.about-border {
+    padding-bottom: 10px;
+    border-bottom: 2px solid lightgrey;
+}
+
+@media only screen and (min-width: 600px) {
+    .card-width {
+      width: 50%;
+    }
+  }
