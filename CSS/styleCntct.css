@@ -1,0 +1,27 @@
+/* background colour */
+.body  {
+    background-color: grey;
+}
+/*coloured title in navbar*/
+.nav-title {
+    background-color: 	#6A5ACD;
+    padding: 0 10px;
+}
+/* grey divider and padding between navbar links */
+.link-border {
+    border-right: 1px solid darkgrey;
+    border-left: 1px solid darkgrey;
+}
+.link-gap,
+.link-border {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+/*fixed footer*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
