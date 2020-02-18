@@ -1,18 +1,27 @@
-
+/* background colour */
 .body  {
     background-color: grey;
 }
+/*coloured title in navbar*/
 .nav-title {
     background-color: 	#6A5ACD;
+    padding: 0 10px;
 }
-
+/* grey divider and padding between navbar links */
 .link-border {
     border-right: 1px solid darkgrey;
     border-left: 1px solid darkgrey;
 }
+.link-gap,
+.link-border {
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+/*gap between about image and p text */
 .about-img {
 padding-right: 5px;
 }
+/*main content card alignment */
 .prof-about-card {
     margin-top: 2%;
     margin-left: 5%;
@@ -20,10 +29,12 @@ padding-right: 5px;
 .card-width {
     width: 90%;
 }
+/*grey border between content card title and card content */
 .about-border {
     padding-bottom: 10px;
-    border-bottom: 2px solid lightgrey;
+    border-bottom: 2px solid lavender;
 }
+/*fixed footer*/
 .footer {
     position: fixed;
     left: 0;
@@ -32,6 +43,7 @@ padding-right: 5px;
     text-align: center;
 }
 
+/*change card width when display is under 600px */
 @media only screen and (min-width: 600px) {
     .card-width {
       width: 50%;
