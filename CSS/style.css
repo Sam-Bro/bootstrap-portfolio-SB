@@ -29,6 +29,7 @@ padding-right: 5px;
 }
 .card-width {
     width: 90%;
+    min-width: 200px;
 }
 /*grey border between content card title and card content */
 .about-border {
@@ -44,8 +45,8 @@ padding-right: 5px;
     text-align: center;
 }
 
-/*change card width when display is over 600px */
-@media only screen and (min-width: 600px) {
+/*change card width when display is over 1025px */
+@media only screen and (min-width: 1025px) {
     .card-width {
       width: 50%;
     }

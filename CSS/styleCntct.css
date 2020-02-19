@@ -1,0 +1,16 @@
+.contact-box {
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 2%;
+    margin-left: 5%;
+    background-color: lavender;
+}
+.contact-border {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #6A5ACD;;
+}
+.btn-color {
+    background-color: #6A5ACD !important;
+    border-color: #6A5ACD !important;
+    color: white !important;
+}
