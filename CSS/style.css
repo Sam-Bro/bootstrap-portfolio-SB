@@ -25,6 +25,7 @@ padding-right: 5px;
 .prof-about-card {
     margin-top: 2%;
     margin-left: 5%;
+    background-color: lavender !important;
 }
 .card-width {
     width: 90%;
@@ -32,7 +33,7 @@ padding-right: 5px;
 /*grey border between content card title and card content */
 .about-border {
     padding-bottom: 10px;
-    border-bottom: 2px solid lavender;
+    border-bottom: 2px solid #6A5ACD;
 }
 /*fixed footer*/
 .footer {
@@ -43,7 +44,7 @@ padding-right: 5px;
     text-align: center;
 }
 
-/*change card width when display is under 600px */
+/*change card width when display is over 600px */
 @media only screen and (min-width: 600px) {
     .card-width {
       width: 50%;
