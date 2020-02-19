@@ -5,7 +5,11 @@
 /*coloured title in navbar*/
 .nav-title {
     background-color: 	#6A5ACD;
-    padding: 0 10px;
+    padding: 13px 20px !important;
+}
+.navbar-full {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
 }
 /* grey divider and padding between navbar links */
 .link-border {
