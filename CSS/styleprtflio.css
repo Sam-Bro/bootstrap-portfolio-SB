@@ -6,3 +6,9 @@
 .row-gap {
     padding-top: 30px;
 }
+.cont-style {
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    background-color: lavender;
+}
