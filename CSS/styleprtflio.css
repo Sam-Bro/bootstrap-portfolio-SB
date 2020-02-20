@@ -1,7 +1,12 @@
+.container {
+    min-width: 320px;
+}
 .overlay {
-    background-color: lavender;
+    background-color: #333a40;
     padding: 5px 0;
-    color: black;
+    color: white;
+    text-align: center;
+    width: 70%;
 }
 .row-gap {
     padding-top: 30px;
@@ -13,8 +18,28 @@
     padding-bottom: 50px;
     background-color: lavender;
 }
+
+.img {
+    display: block;
+}
+
+.proj-img {
+    position: relative;
+    display: inline-block;
+}
+
+.caption {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+}
 @media only screen and (max-width: 768px) {
     .img-port {
         padding-top: 20px;
+    }
+    .cont-style {
+        width: 50% !important;
     }
 }
