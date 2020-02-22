@@ -1,6 +1,6 @@
 # Bootstrap portfolio
 
-## Description 
+## Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
 Unit 02 CSS and Bootstrap Homework, creating a responsive portfolio. Responsively designed web applications render well on a variety of devices and window or screen sizes. Developers will commonly need to create
 a mobile first application or add responsive design to an existing application.
