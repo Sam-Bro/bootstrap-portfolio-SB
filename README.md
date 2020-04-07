@@ -22,3 +22,5 @@ A personal portfolio has been recreated using Bootstrap CSS framework to improve
 
 This projects purpose was to demonstrate the use of bootstrap grid/componentsacross the about, contact and gallery pages. The project was also meant to demonstrate bootstrap responsiveness and the appropriate use of
 media query's to make all pages render well on a variety of devices with differing window or screen sizes.
+
+https://sam-bro.github.io/bootstrap-portfolio-SB/
